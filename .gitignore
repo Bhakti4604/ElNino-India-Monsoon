@@ -1,0 +1,27 @@
+
+# Raw climate datasets — never commit
+data/raw/*
+
+# Processed datasets — keep large data out of Git
+data/processed/*
+
+# Preserve folder placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+
+# Temporary files and logs
+*.tmp
+*.log
+
+# Power BI temporary/backup files
+*.tmp
+*.bak
